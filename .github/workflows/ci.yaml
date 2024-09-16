@@ -37,7 +37,7 @@ jobs:
           diagnostic-endpoint: ""
 
       - name: Setup Cache
-        uses: DeterminateSystems/magic-nix-cache-action@v7
+        uses: DeterminateSystems/magic-nix-cache-action@v8
 
       - name: Run build
         run: |
